@@ -1,5 +1,5 @@
 /*
- * @Author: wuzhiquan
+ * @Author: wsj
  * @Date: 2020-11-25
  */
 module.exports = {
@@ -9,7 +9,7 @@ module.exports = {
   chainWebpack: config => {
     config.plugin('html')
       .tap((args) => {
-        args[0].title = 'qiankun-wuzhiquan'
+        args[0].title = 'qiankun-wsj'
         return args
       })
   }

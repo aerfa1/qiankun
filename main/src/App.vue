@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="layout-header">
-      <div class="logo">QIANKUN-WUZHIQUAN 主应用的state：{{ JSON.stringify(user) }}</div>
+      <div class="logo">QIANKUN-wsj 主应用的state：{{ JSON.stringify(user) }}</div>
       <ul class="sub-apps">
         <li v-for="item in microApps" :class="{active: item.activeRule === current}" :key="item.name" @click="goto(item)">{{ item.name }}</li>
       </ul>
